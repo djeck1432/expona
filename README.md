@@ -54,30 +54,10 @@ https://example.com/api/all?timeout=400
 
 ## Tests
 
-# 1000 requests 100 requests concurrency
+# api/all
+`1000 requests 100 requests concurrency`
 
 ```bash
-Benchmarking 0.0.0.0 (be patient)
-Completed 100 requests
-Completed 200 requests
-Completed 300 requests
-Completed 400 requests
-Completed 500 requests
-Completed 600 requests
-Completed 700 requests
-Completed 800 requests
-Completed 900 requests
-Completed 1000 requests
-Finished 1000 requests
-
-
-Server Software:        Python/3.8
-Server Hostname:        0.0.0.0
-Server Port:            8080
-
-Document Path:          /api/all
-Document Length:        55 bytes
-
 Concurrency Level:      100
 Time taken for tests:   0.670 seconds
 Complete requests:      1000
